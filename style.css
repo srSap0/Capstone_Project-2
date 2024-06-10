@@ -44,6 +44,10 @@ hr {
   align-items: flex-end;
 }
 
+.profile-container{
+    margin: 25px;
+}
+
 a {
   text-decoration-line: none;
   text-decoration: none;
