@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  background-color: #31363f;
+  color: #eeeeee;
+}
+
+#Hero,
+#Profile,
+#Skills {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 300px;
+  margin-top: 50px;
+}
+
+hr {
+  border: dotted;
+  opacity: 10%;
+}
+
+.skill-container {
+  display: flex;
+}
+
+.foto,
+.video,
+.web-design {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#contactme {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration: none;
+  color: #31363f;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+}
+
+#Profile,
+#contactme {
+  background-color: #eeeeee;
+  color: #31363f;
+}
+
+.Contact-text {
+  padding: 0%;
+  margin: 0%;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+p {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.piedepagina {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+
+.social-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.skill-jpg{
+    margin-right: 0%;
+}
+
+/* responsive media */
+
+@media (max-width: 780px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  .profile-img{
+    height: 150px;
+  }
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-jpg{
+    height: 150px;
+    margin: 25px;
+    margin-right: 0;
+  }
+
+}
